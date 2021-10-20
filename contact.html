@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Contact</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+       <script>
+	   function validation()
+	   {
+			var name=document.getElementById("name").value;
+			var email=document.getElementById("email").value;
+			var subject=document.getElementById("subject").value;
+			var message=document.getElementById("message").value;
+			
+			if(name=="")
+			{
+				alert("Please Enter Name");
+			}
+			else if(email=="")
+			{
+				alert("Please Enter Email Address");
+			}
+			else if(subject=="")
+			{
+				alert("Please Enter subject");
+			}
+			else if(message=="")
+			{
+				alert("Please Write Message");
+			}
+			else 
+			{
+				alert("Message Send Successfully");
+			}
+	   }
+	   </script>
+    
+        <header class="header_area">
+            <div class="main_menu">
+                <div class="container">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+                            <ul class="nav navbar-nav menu_nav ml-auto">
+                                <li class="nav-item"><a class="nav-link" href="index.html" style="color:midnightblue;" onMouseOver="this.style.color='blue'"onMouseOut="this.style.color='midnightblue'">Home</a></li> 
+                                <li class="nav-item"><a class="nav-link" href="about.html" style="color:midnightblue;" onMouseOver="this.style.color='blue'"onMouseOut="this.style.color='midnightblue'">About</a></li> 
+                                <li class="nav-item active"><a class="nav-link" style="color:white;" onMouseOver="this.style.color='blue'" onMouseOut="this.style.color='white'" >Contact</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <section class="contact_area section_gap">
+            <div class="contactForm">
+                <form novalidate="novalidate">
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" name="name" placeholder="Enter your name"><br><br>
+                        <input type="email" class="form-control" name="email" placeholder="Enter email address"><br><br>
+                        <input type="text" class="form-control" name="subject" placeholder="Enter Subject"><br><br>
+                        <textarea class="userMessage" name="message" placeholder="Enter Message"></textarea><br>
+        
+                        <div class="col-md-12 text-left">
+                            <button type="submit" value="submit" class="messageButton" onclick="validation()" >Send Message</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="contactInfo">
+                <p style="font-size: 30px;">OR Reach out to us at: </p>
+                <p>Address: Bangalore, Karnataka, India</p>
+                <p>Phone: +91 XXXXXXXXXX</p>
+                <p>Email: donation@support.com</p>
+            </div>
+        </section>
+    </body>
+</html>

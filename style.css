@@ -1,0 +1,108 @@
+html{
+    background-image:url("social_default.jpg");
+    background-size:cover;
+    background-position: center;
+    height:100%;
+    width:100%;
+}
+body{
+    position: absolute;
+    padding: 80px 0;
+    left:10%;
+    right:10%
+}
+.content{
+    background-color:transparent;
+    border-radius: 50px;
+    border: 3px solid rgba( 255, 255, 255, 0.18 );
+    padding: 40px;
+}
+.content h1{
+    color:white;
+    font-size: 50px;
+}
+.message{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, cursive;
+    font-size: 60px;
+    color:white;
+    width: 500px; 
+}
+.aboutMessage{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, cursive;
+    font-size: 20px;
+}
+.donateButton:hover{
+    background-color:pink;
+}
+.donateButton{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, cursive;
+    font-size: 15px;
+    border-radius: 50px;
+    padding:12px;
+    border:1px solid black;
+    background-color:midnightblue;
+    color:white;
+}
+.quote{
+    color:white;
+    font-size: 20px;
+}
+.contact{
+    padding:10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, cursive;
+}
+ul{
+    list-style-type: none;
+    white-space: nowrap;
+    position: absolute;
+    left:45%;
+    top:1%;
+}
+li{
+    display: inline;
+    padding: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, cursive;
+    font-size: 25px;
+    color: white;
+}
+.contactForm{
+    margin-top: 80px;
+    float:left;
+    width:50%;
+}
+.contactInfo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif,cursive;
+    font-size: 20px;
+    color:white;
+    float:right;
+    margin-top: 100px;
+    background-color:transparent;
+    border-radius: 50px;
+    border: 3px solid rgba( 255, 255, 255, 0.18 );
+    padding:20px;
+    
+}
+.contactForm input{
+    padding:12px 20px 10px 10px;
+    width:70%;
+    border-radius: 5px;
+    border: 2px solid midnightblue;
+    box-sizing:content-box;
+}
+.userMessage{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif,cursive;
+    width:70%;
+    height:100px;
+    padding:12px 20px 10px 10px;
+    border-radius: 5px;
+    border: 2px solid midnightblue;
+}
+.messageButton{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, cursive;
+    font-size: 15px;
+    border-radius: 50px;
+    padding:12px;
+    border:1px solid black;
+    background-color:midnightblue;
+    color:white;
+}
